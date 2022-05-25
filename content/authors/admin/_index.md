@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Danko Dmitry
+title: Danko Dmitry Igorevich
 
 # Is this the primary user of the site?
 superuser: true
