@@ -5,12 +5,26 @@
     <link>https://example.com/tag/academic/</link>
       <atom:link href="https://example.com/tag/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
       <link>https://example.com/tag/academic/</link>
     </image>
+    
+    <item>
+      <title>Week from May 23 to May 29</title>
+      <link>https://example.com/post/week-from-may-23-to-may-29/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/week-from-may-23-to-may-29/</guid>
+      <description>&lt;h2 id=&#34;first&#34;&gt;First&lt;/h2&gt;
+&lt;p&gt;I finally fixed the computer, though I broke it. well But now I have Ubuntu for Windows and I can do lab work on a normal operating system.&lt;/p&gt;
+&lt;h2 id=&#34;second&#34;&gt;Second&lt;/h2&gt;
+&lt;p&gt;I finally figured out how to work heck danisco which is perfect but i figured it out and that&amp;rsquo;s good.&lt;/p&gt;
+&lt;h2 id=&#34;third&#34;&gt;Third&lt;/h2&gt;
+&lt;p&gt;Well, my birthday is on Saturday Cool, I congratulate myself on my own beautiful.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
