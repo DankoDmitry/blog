@@ -33,6 +33,16 @@
     </item>
     
     <item>
+      <title>First Project</title>
+      <link>https://example.com/project/firstproject/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/firstproject/</guid>
+      <description>&lt;p&gt;Чтож, задание выданно, подписи посталенны, пора делать. Свой сайт-портфолио-резюмэ, это круто. Представте: Вы приходите на собеседование в крупную компанию и Вас спрашивают о ваших навыках, которые кратко перечисленны в резюмэ. Мол что, как, куда. И в место того, чтобы долго рассказывать о своих достижениях и опыте, Вы просто отправляете ссылку на этот сайт, свой сайт, где все подробно расписано (с картинками конечно).&lt;/p&gt;
+&lt;p&gt;Well, the task has been issued, the signatures have been signed, it&amp;rsquo;s time to do it. Your site-portfolio-resume, it&amp;rsquo;s cool. Imagine: You go to an interview in a large company and you are asked about your skills, which are briefly listed in the resume. Like what, how, where. And instead of talking for a long time about your achievements and experience, you simply send a link to this site, your site, where everything is detailed (with pictures, of course).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week from May 23 to May 29</title>
       <link>https://example.com/post/week-from-may-23-to-may-29/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
