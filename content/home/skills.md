@@ -25,7 +25,7 @@ feature:
     icon_pack: fas
     name: Sleep
   - description: 30%
-    icon: camera-retro
+    icon: fa-integral
     icon_pack: fas
     name: Math
 # Uncomment to use emoji icons.
