@@ -14,7 +14,7 @@ external_link: ''
 #  focal_point: Smart
   
 image:
-  caption: 'Face.png'
+  caption: Face.png
   focal_point: ''
   placement: 2
   preview_only: false
