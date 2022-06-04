@@ -14,8 +14,8 @@ external_link: ''
 #  focal_point: Smart
   
 image:
-  caption: Face.png
-  focal_point: ''
+  caption: 'Face.png'
+  focal_point: 'Smart'
   placement: 2
   preview_only: false
   
@@ -37,6 +37,6 @@ url_video: ''
 slides: example
 ---
 
-Чтож, задание выданно, подписи посталенны, пора делать. Свой сайт-портфолио-резюмэ, это круто. Представте: Вы приходите на собеседование в крупную компанию и Вас спрашивают о ваших навыках, которые кратко перечисленны в резюмэ. Мол что, как, куда. И в место того, чтобы долго рассказывать о своих достижениях и опыте, Вы просто отправляете ссылку на этот сайт, свой сайт, где все подробно расписано (с картинками конечно).
+Well, the task has been issued, the signatures have been signed, it's time to do it. Your site-portfolio-resume, it's cool. Imagine: You go to an interview in a large company and you are asked about your skills, which are briefly listed in the resume. Like what, how, where. And instead of talking for a long time about your achievements and experience, you simply send a link to this site, your site, where everything is detailed (with pictures, of course).
 
 Well, the task has been issued, the signatures have been signed, it's time to do it. Your site-portfolio-resume, it's cool. Imagine: You go to an interview in a large company and you are asked about your skills, which are briefly listed in the resume. Like what, how, where. And instead of talking for a long time about your achievements and experience, you simply send a link to this site, your site, where everything is detailed (with pictures, of course).

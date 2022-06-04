@@ -4,74 +4,34 @@
   
   
   <url>
-    <loc>https://example.com/ru/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/"
+      href="https://dankodmitry.github.io/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/"
+      href="https://dankodmitry.github.io/ru/"
     /></url>
   <url>
-    <loc>https://example.com/ru/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/talk/example-talk/"
+      href="https://dankodmitry.github.io/talk/example-talk/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/talk/example-talk/"
+      href="https://dankodmitry.github.io/ru/talk/example-talk/"
     /></url>
   <url>
-    <loc>https://example.com/ru/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/event/"
+      href="https://dankodmitry.github.io/event/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/event/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /></url>
-  <url>
-    <loc>https://example.com/ru/tag/academic/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://example.com/tag/academic/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://example.com/ru/tag/academic/"
-    /></url>
-  <url>
-    <loc>https://example.com/ru/categories/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://example.com/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://example.com/ru/categories/"
-    /></url>
-  <url>
-    <loc>https://example.com/ru/category/demo/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://example.com/category/demo/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://example.com/ru/category/demo/"
+      href="https://dankodmitry.github.io/ru/event/"
     /></url>
   <url>
     <loc></loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -84,96 +44,136 @@
       href=""
     /></url>
   <url>
-    <loc>https://example.com/ru/post/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/tag/academic/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/post/"
+      href="https://dankodmitry.github.io/tag/academic/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/"
+      href="https://dankodmitry.github.io/ru/tag/academic/"
     /></url>
   <url>
-    <loc>https://example.com/ru/category/programming-languages/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/categories/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/category/programming-languages/"
+      href="https://dankodmitry.github.io/categories/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/category/programming-languages/"
+      href="https://dankodmitry.github.io/ru/categories/"
     /></url>
   <url>
-    <loc>https://example.com/ru/tags/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/category/demo/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/tags/"
+      href="https://dankodmitry.github.io/category/demo/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/tags/"
+      href="https://dankodmitry.github.io/ru/category/demo/"
     /></url>
   <url>
-    <loc>https://example.com/ru/post/week-from-may-30-to-june-5/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/post/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/post/week-from-may-30-to-june-5/"
+      href="https://dankodmitry.github.io/post/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/week-from-may-30-to-june-5/"
+      href="https://dankodmitry.github.io/ru/post/"
     /></url>
   <url>
-    <loc>https://example.com/ru/post/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-sysv/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/ru/post/scientific-programming-languages/</loc><lastmod>2022-05-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/category/programming-languages/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/post/scientific-programming-languages/"
+      href="https://dankodmitry.github.io/category/programming-languages/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/scientific-programming-languages/"
+      href="https://dankodmitry.github.io/ru/category/programming-languages/"
     /></url>
   <url>
-    <loc>https://example.com/ru/project/firstproject/</loc><lastmod>2022-05-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/tags/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/project/firstproject/"
+      href="https://dankodmitry.github.io/tags/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/project/firstproject/"
+      href="https://dankodmitry.github.io/ru/tags/"
     /></url>
   <url>
-    <loc>https://example.com/ru/project/</loc><lastmod>2022-05-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc></loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/project/"
+      href=""
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/project/"
+      href=""
     /></url>
   <url>
-    <loc>https://example.com/ru/post/week-from-may-23-to-may-29/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/post/week-from-may-30-to-june-5/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/post/week-from-may-23-to-may-29/"
+      href="https://dankodmitry.github.io/post/week-from-may-30-to-june-5/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/week-from-may-23-to-may-29/"
+      href="https://dankodmitry.github.io/ru/post/week-from-may-30-to-june-5/"
     /></url>
   <url>
-    <loc>https://example.com/ru/post/getting-started/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/post/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-sysv/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dankodmitry.github.io/ru/post/scientific-programming-languages/</loc><lastmod>2022-05-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/post/getting-started/"
+      href="https://dankodmitry.github.io/post/scientific-programming-languages/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/getting-started/"
+      href="https://dankodmitry.github.io/ru/post/scientific-programming-languages/"
+    /></url>
+  <url>
+    <loc>https://dankodmitry.github.io/ru/project/firstproject/</loc><lastmod>2022-05-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://dankodmitry.github.io/project/firstproject/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://dankodmitry.github.io/ru/project/firstproject/"
+    /></url>
+  <url>
+    <loc>https://dankodmitry.github.io/ru/project/</loc><lastmod>2022-05-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://dankodmitry.github.io/project/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://dankodmitry.github.io/ru/project/"
+    /></url>
+  <url>
+    <loc>https://dankodmitry.github.io/ru/post/week-from-may-23-to-may-29/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://dankodmitry.github.io/post/week-from-may-23-to-may-29/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://dankodmitry.github.io/ru/post/week-from-may-23-to-may-29/"
+    /></url>
+  <url>
+    <loc>https://dankodmitry.github.io/ru/post/getting-started/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://dankodmitry.github.io/post/getting-started/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://dankodmitry.github.io/ru/post/getting-started/"
     /></url>
   <url>
     <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -186,104 +186,104 @@
       href=""
     /></url>
   <url>
-    <loc>https://example.com/ru/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/tag/%E5%BC%80%E6%BA%90/"
+      href="https://dankodmitry.github.io/tag/%E5%BC%80%E6%BA%90/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/tag/%E5%BC%80%E6%BA%90/"
+      href="https://dankodmitry.github.io/ru/tag/%E5%BC%80%E6%BA%90/"
     /></url>
   <url>
-    <loc>https://example.com/ru/category/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/category/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/category/%E6%95%99%E7%A8%8B/"
+      href="https://dankodmitry.github.io/category/%E6%95%99%E7%A8%8B/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/category/%E6%95%99%E7%A8%8B/"
+      href="https://dankodmitry.github.io/ru/category/%E6%95%99%E7%A8%8B/"
     /></url>
   <url>
-    <loc>https://example.com/ru/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/slides/"
+      href="https://dankodmitry.github.io/slides/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/slides/"
+      href="https://dankodmitry.github.io/ru/slides/"
     /></url>
   <url>
-    <loc>https://example.com/ru/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/slides/example/"
+      href="https://dankodmitry.github.io/slides/example/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/slides/example/"
+      href="https://dankodmitry.github.io/ru/slides/example/"
     /></url>
   <url>
-    <loc>https://example.com/ru/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/tag/deep-learning/"
+      href="https://dankodmitry.github.io/tag/deep-learning/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/tag/deep-learning/"
+      href="https://dankodmitry.github.io/ru/tag/deep-learning/"
     /></url>
   <url>
-    <loc>https://example.com/ru/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/project/example/"
+      href="https://dankodmitry.github.io/project/example/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/project/example/"
+      href="https://dankodmitry.github.io/ru/project/example/"
     /></url>
   <url>
-    <loc>https://example.com/ru/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/publication-type/1/"
+      href="https://dankodmitry.github.io/publication-type/1/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/publication-type/1/"
+      href="https://dankodmitry.github.io/ru/publication-type/1/"
     /></url>
   <url>
-    <loc>https://example.com/ru/publication/example/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/publication/example/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/publication/example/"
+      href="https://dankodmitry.github.io/publication/example/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/publication/example/"
+      href="https://dankodmitry.github.io/ru/publication/example/"
     /></url>
   <url>
-    <loc>https://example.com/ru/publication_types/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/publication_types/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/publication_types/"
+      href="https://dankodmitry.github.io/publication_types/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/publication_types/"
+      href="https://dankodmitry.github.io/ru/publication_types/"
     /></url>
   <url>
-    <loc>https://example.com/ru/publication/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dankodmitry.github.io/ru/publication/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/publication/"
+      href="https://dankodmitry.github.io/publication/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/publication/"
+      href="https://dankodmitry.github.io/ru/publication/"
     /></url>
   <url>
     <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link

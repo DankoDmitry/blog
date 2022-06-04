@@ -1,9 +1,9 @@
 ---
-title: Week from May 23 to May 29
+title: Week from May 30 to June 5
 subtitle: Well, not a week without a birthday.
 
 # Summary for listings and search engines
-summary: Самая обычная неделя.
+summary: The most ordinary week.
 
 # Link this post with a project
 projects: []

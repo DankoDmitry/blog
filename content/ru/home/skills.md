@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Skills
+title: Умения
 subtitle:
 
 # Showcase personal skills or business features.
@@ -19,15 +19,16 @@ feature:
   - description: 30%
     icon: r-project
     icon_pack: fab
-    name: Sport
+    name: Спорт
   - description: 30%
     icon: chart-line
     icon_pack: fas
-    name: Sleep
+    name: Сон
   - description: 30%
     icon: fa-integral
     icon_pack: fas
-    name: Math
+    name: Математика
+    
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"

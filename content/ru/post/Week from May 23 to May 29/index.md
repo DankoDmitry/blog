@@ -1,9 +1,9 @@
 ---
-title: Week from May 23 to May 29
-subtitle: I'll tell you right away this week is my birthday
+title: Неделя с 23 по 29 Мая
+subtitle: Сразу скажу, на этой неделе мой день рождения
 
 # Summary for listings and search engines
-summary: Most ordinary week.
+summary: Самая обычная неделя.
 
 # Link this post with a project
 projects: []
@@ -38,17 +38,17 @@ categories:
   - Demo
 ---
 
-## First
+## Первое
 
 
-I finally fixed the computer, though I broke it. well But now I have Ubuntu for Windows and I can do lab work on a normal operating system.
+Наконец-то я починил компьютер, хоть и сломал его. хорошо, но теперь у меня есть Ubuntu для Windows, и я могу делать лабораторные работы в обычной операционной системе.
 
-## Second
-
-
-I finally figured out how to work heck danisco which is perfect but i figured it out and that's good.
-
-## Third
+## Второе
 
 
-Well, my birthday is on Saturday Cool, I congratulate myself on my own beautiful.
+Я, наконец, понял, как работать, черт возьми, даниско, который идеален, но я понял это, и это хорошо.
+
+## Третье
+
+
+Ну а день рождения у меня в субботу Прикольно, поздравляю себя с родной красавицей.

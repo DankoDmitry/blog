@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>programming languages | Academic</title>
-    <link>https://example.com/ru/category/programming-languages/</link>
-      <atom:link href="https://example.com/ru/category/programming-languages/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://dankodmitry.github.io/ru/category/programming-languages/</link>
+      <atom:link href="https://dankodmitry.github.io/ru/category/programming-languages/index.xml" rel="self" type="application/rss+xml" />
     <description>programming languages</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Sat, 04 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://dankodmitry.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>programming languages</title>
-      <link>https://example.com/ru/category/programming-languages/</link>
+      <link>https://dankodmitry.github.io/ru/category/programming-languages/</link>
     </image>
     
     <item>
       <title>Система инициализации System V</title>
-      <link>https://example.com/ru/post/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-sysv/</link>
+      <link>https://dankodmitry.github.io/ru/post/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-sysv/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/post/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-sysv/</guid>
+      <guid>https://dankodmitry.github.io/ru/post/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-sysv/</guid>
       <description>&lt;h1 id=&#34;--что-это-и-зачем&#34;&gt;- Что это и зачем?&lt;/h1&gt;
 &lt;p&gt;System V — одна из версий операционной системы Unix, выпущенная в 1983 году.&lt;/p&gt;
 &lt;p&gt;Система инициализации в UNIX и Linux - набор программ для управления формированием рабочей среды: текстовое/графическое рабочее окружение или служебный узел вычислительной сети. Традиционное имя основной программы - init (&amp;ldquo;инИт&amp;rdquo;). Её PID = 1.&lt;/p&gt;
@@ -92,9 +92,9 @@ lrwxrwxrwx 1 root root 16 янв 21 04:17 S99smartd -&amp;gt; ../init.d/smartd&l
     
     <item>
       <title>Языки программирования</title>
-      <link>https://example.com/ru/post/scientific-programming-languages/</link>
+      <link>https://dankodmitry.github.io/ru/post/scientific-programming-languages/</link>
       <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/post/scientific-programming-languages/</guid>
+      <guid>https://dankodmitry.github.io/ru/post/scientific-programming-languages/</guid>
       <description>&lt;p&gt;#Сегодня в мире существуют сотни языков программирования. Каждый из нах обладает сильными и слабыми сторонами. Поговорим о самых известных и востребованных.&lt;/p&gt;
 &lt;p&gt;##Bash
 Сценарии командной оболочки Unix, созданные Кеном Томпсоном в начале 1970-х годов, тесно связаны с языком программирования C. Bash — обновленная оболочка Unix — была впервые выпущена в конце 80-х годов и до сих пор активно разрабатывается. На Bash обычно пишутся сценарии конфигурации сервера, поэтому это хороший выбор для работы в современных облачных средах с контейнерным хранением и микросервисами. Скрипты командной оболочки используются достаточно часто, так что знание этого языка пригодится.&lt;/p&gt;

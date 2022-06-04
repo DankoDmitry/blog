@@ -39,7 +39,7 @@ categories:
 ---
 
 
-# - Что это и зачем?
+# - What is it and why?
 System V is a version of the Unix operating system released in 1983.
 
 The initialization system in UNIX and Linux is a set of programs for managing the formation of a working environment: a text / graphical working environment or a service node of a computer network. The traditional name for a main program is init. Her PID = 1.

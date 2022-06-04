@@ -1,32 +1,32 @@
 ---
 # Display name
-title: Dmitry Danko
+title: Дмитрий Данько
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Студент РУДН
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: PFUR
+  - name: РУДН
     url: https://www.rudn.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Мои исследовательские интересы включают распределенную робототехнику, мобильные вычисления и программируемую материю.
 
 # Interests to show in About widget
 interests:
-  - Sport
-  - Math
-
+  - Спорт
+  - Математика
+  
 # Education to show in About widget
 education:
   courses:
-    - course: PMI
-      institution: RUDN
-      year: 2022
+    - course: НПМ
+      institution: РУДН
+      year: 2021
       
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -51,6 +51,6 @@ email: ''
 highlight_name: true
 ---
 
-First-year student of the Russian University of Friendship of Peoples Applied mathematics and computer science. I love mathematics, sports, outdoor recreation and programming.
+Студент 1 курса Российского Университета Дружбы Народов Прикладная математика и информатика. Люблю математику, спорт, отдых на природе и программирование.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Скачать моё {{< staticref "uploads/demo_resume.pdf" "newtab" >}}резюме{{< /staticref >}}.
