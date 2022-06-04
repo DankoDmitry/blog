@@ -5,12 +5,26 @@
     <link>https://example.com/category/demo/</link>
       <atom:link href="https://example.com/category/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Demo</title>
       <link>https://example.com/category/demo/</link>
     </image>
+    
+    <item>
+      <title>Week from May 23 to May 29</title>
+      <link>https://example.com/post/week-from-may-30-to-june-5/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/week-from-may-30-to-june-5/</guid>
+      <description>&lt;h2 id=&#34;first&#34;&gt;First&lt;/h2&gt;
+&lt;p&gt;Several difficult control behind, I hope I do not have to rewrite. Getting ready for exams.&lt;/p&gt;
+&lt;h2 id=&#34;second&#34;&gt;Second&lt;/h2&gt;
+&lt;p&gt;In general, the week turned out to be quite eventful, not to say that there were many achievements, but at the same time, I was always busy somewhere or something.&lt;/p&gt;
+&lt;h2 id=&#34;third&#34;&gt;Third&lt;/h2&gt;
+&lt;p&gt;Well, we celebrated our birthday in a restaurant, the food is delicious, expensive and not enough.)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Week from May 23 to May 29</title>

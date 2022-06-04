@@ -34,7 +34,7 @@
       href="https://example.com/ru/event/"
     /></url>
   <url>
-    <loc></loc><lastmod>2022-05-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc></loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href=""
@@ -44,7 +44,7 @@
       href=""
     /></url>
   <url>
-    <loc>https://example.com/ru/tag/academic/</loc><lastmod>2022-05-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://example.com/ru/tag/academic/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://example.com/tag/academic/"
@@ -54,7 +54,7 @@
       href="https://example.com/ru/tag/academic/"
     /></url>
   <url>
-    <loc>https://example.com/ru/categories/</loc><lastmod>2022-05-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://example.com/ru/categories/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://example.com/categories/"
@@ -64,7 +64,17 @@
       href="https://example.com/ru/categories/"
     /></url>
   <url>
-    <loc></loc><lastmod>2022-05-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://example.com/ru/category/demo/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://example.com/category/demo/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://example.com/ru/category/demo/"
+    /></url>
+  <url>
+    <loc></loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href=""
@@ -74,7 +84,7 @@
       href=""
     /></url>
   <url>
-    <loc>https://example.com/ru/post/</loc><lastmod>2022-05-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://example.com/ru/post/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://example.com/post/"
@@ -84,7 +94,7 @@
       href="https://example.com/ru/post/"
     /></url>
   <url>
-    <loc>https://example.com/ru/category/programming-languages/</loc><lastmod>2022-05-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://example.com/ru/category/programming-languages/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://example.com/category/programming-languages/"
@@ -94,7 +104,7 @@
       href="https://example.com/ru/category/programming-languages/"
     /></url>
   <url>
-    <loc>https://example.com/ru/tags/</loc><lastmod>2022-05-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://example.com/ru/tags/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://example.com/tags/"
@@ -103,6 +113,18 @@
       hreflang="ru"
       href="https://example.com/ru/tags/"
     /></url>
+  <url>
+    <loc>https://example.com/ru/post/week-from-may-30-to-june-5/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://example.com/post/week-from-may-30-to-june-5/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://example.com/ru/post/week-from-may-30-to-june-5/"
+    /></url>
+  <url>
+    <loc>https://example.com/ru/post/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-sysv/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/ru/post/scientific-programming-languages/</loc><lastmod>2022-05-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
@@ -132,16 +154,6 @@
       rel="alternate"
       hreflang="ru"
       href="https://example.com/ru/project/"
-    /></url>
-  <url>
-    <loc>https://example.com/ru/category/demo/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://example.com/category/demo/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://example.com/ru/category/demo/"
     /></url>
   <url>
     <loc>https://example.com/ru/post/week-from-may-23-to-may-29/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link

@@ -5,12 +5,104 @@
     <link>https://example.com/tag/academic/</link>
       <atom:link href="https://example.com/tag/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 28 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
       <link>https://example.com/tag/academic/</link>
     </image>
+    
+    <item>
+      <title>Initialization system System V</title>
+      <link>https://example.com/post/system-init-sysv/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/system-init-sysv/</guid>
+      <description>&lt;h1 id=&#34;--что-это-и-зачем&#34;&gt;- Что это и зачем?&lt;/h1&gt;
+&lt;p&gt;System V is a version of the Unix operating system released in 1983.&lt;/p&gt;
+&lt;p&gt;The initialization system in UNIX and Linux is a set of programs for managing the formation of a working environment: a text / graphical working environment or a service node of a computer network. The traditional name for a main program is init. Her PID = 1.&lt;/p&gt;
+&lt;p&gt;Init is the parent of all processes. Its main task is to create scripted processes from the /etc/inittab file. This file usually contains entries that tell init to spawn getty for each line that users can log in to. It also controls the offline processes required by any system. A runlevel is a programmatic configuration of a system that allows only a given group of processes to exist. The processes spawned by init at each of these runlevels are defined in the /etc/inittab file.&lt;/p&gt;
+&lt;p&gt;Essentially, init organizes and maintains all user space, which also includes checking and mounting file systems, starting the necessary user services, and switching to user state when the system has finished booting up.&lt;/p&gt;
+&lt;h1 id=&#34;--how-does-it-work&#34;&gt;- How does it work?&lt;/h1&gt;
+&lt;p&gt;Init systems start daemons with scripts, with each script starting one daemon and each successive script waiting for the previous script to complete.&lt;/p&gt;
+&lt;p&gt;A daemon is a process that runs in the background with no connection to a GUI or terminal. Daemons are typically started at system boot and remain operational until the system is shut down. In modern technical documentation, daemons are most commonly referred to as services.&lt;/p&gt;
+&lt;h2 id=&#34;process-id-1&#34;&gt;Process ID 1&lt;/h2&gt;
+&lt;p&gt;The bootloader transfers control of the system to the OS kernel. After a short period of time, the OS kernel starts the init system daemon. This init system daemon (/sbin/init) is the first daemon started within the system, so the corresponding process gets the process ID 1 (PID 1). The init system daemon never exits.&lt;/p&gt;
+&lt;h2 id=&#34;configuration-options-in-the-etcinittab-file&#34;&gt;Configuration options in the /etc/inittab file&lt;/h2&gt;
+&lt;p&gt;After the binary file /sbin/init is executed, the configuration file /etc/inittab is read first. In this file, the daemon will look for the value of the initdefault variable (equal to 3 in the example below).&lt;/p&gt;
+&lt;h2 id=&#34;variable-initdefault&#34;&gt;Variable initdefault&lt;/h2&gt;
+&lt;p&gt;The value of the initdefault variable specifies the default runlevel. On some Linux distributions, the /etc/inittab file contains a short description of runlevels similar to the following translated description from the corresponding Red Hat Enterprise Linux 4 distribution file.&lt;/p&gt;
+&lt;p&gt;Execution level 0 corresponds to system shutdown. Runlevel 1 is used for troubleshooting because only the root user can log in, and only the console can log in. Runlevel 3 is typical for servers, while runlevel 5 is typical for desktop computers (those that log in to the system in graphical mode). With the exception of runlevels 0, 1, and 6, the various runlevels may differ depending on the distribution. For example, the Debian distribution and derivative Linux distributions at runlevels 2 and 5 have the ability to log in using a network connection and a GUI. Therefore, you should always refer to the correct description of your system&amp;rsquo;s runlevels.&lt;/p&gt;
+&lt;h2 id=&#34;sysinit-script&#34;&gt;sysinit script&lt;/h2&gt;
+&lt;p&gt;Script /etc/rc.d/rc.sysinit&lt;/p&gt;
+&lt;p&gt;The following line in the /etc/inittab configuration file on Red Hat and derivative distributions looks like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;si::sysinit:/etc/rc.d/rc.sysinit&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This entry means that regardless of the chosen runlevel, the init system will execute the /etc/rc.d/rc.sysinit script. This script initializes the hardware, sets some basic environment variables, populates the /etc/mtab file when mounting filesystems, mounts the swap partition, and performs other necessary actions.&lt;/p&gt;
+&lt;p&gt;The egrep command above can be replaced with the similar grep command below:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;grep &amp;ldquo;^# Ini∥Sta∥Che&amp;rdquo;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;initialization-scripts&#34;&gt;Initialization scripts&lt;/h2&gt;
+&lt;p&gt;The init daemon will continue reading the /etc/inittab configuration file and jump to the following section:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;l0:0:wait:/etc/rc.d/rc 0
+l1:1:wait:/etc/rc.d/rc 1
+l2:2:wait:/etc/rc.d/rc 2
+l3:3:wait:/etc/rc.d/rc 3
+l4:4:wait:/etc/rc.d/rc 4
+l5:5:wait:/etc/rc.d/rc 5
+l6:6:wait:/etc/rc.d/rc 6&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The init daemon must run the init script with a single parameter that matches the runlevel. In fact, the fields in the configuration file /etc/inittab are separated by colons. The second field describes the execution level at which the command on this line should be executed. Thus, in both cases, only one of the seven commands is executed, depending on the current runlevel set using the initdefault variable.&lt;/p&gt;
+&lt;h2 id=&#34;directories-for-storing-init-scripts&#34;&gt;Directories for storing init scripts&lt;/h2&gt;
+&lt;p&gt;If you look at the contents of one of the /etc/rcX.d/ directories, you can find many scripts (or script references) whose names start with either the letter K or uppercase S.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[root@RHEL52 rc3.d]# ls -l | tail -4
+lrwxrwxrwx 1 root root 19 окт 11  2008 S98haldaemon -&amp;gt; ../init.d/haldaemon
+lrwxrwxrwx 1 root root 19 окт 11  2008 S99firstboot -&amp;gt; ../init.d/firstboot
+lrwxrwxrwx 1 root root 11 янв 21 04:16 S99local -&amp;gt; ../rc.local
+lrwxrwxrwx 1 root root 16 янв 21 04:17 S99smartd -&amp;gt; ../init.d/smartd&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The /etc/rcX.d/ directories only contain links to scripts located in the /etc/init.d/ directory. Links make it possible to use scripts with distinct names. When you move to a new runlevel, all scripts whose names start with the letter K or uppercase S start executing after being sorted alphabetically by name. Scripts whose names begin with the letter K will be executed first with a single parameter, stop. The rest of the scripts whose names begin with the letter S will be executed with a single start parameter passed.&lt;/p&gt;
+&lt;p&gt;All of these operations are performed by the /etc/rc.d/rc script on the Red Hat distribution and the /etc/init.d/rc script on the Debian distribution.&lt;/p&gt;
+&lt;h2 id=&#34;mingetty-daemons&#34;&gt;mingetty daemons&lt;/h2&gt;
+&lt;p&gt;Description of mingetty daemons in /etc/inittab configuration file&lt;/p&gt;
+&lt;p&gt;Almost at the end of the /etc/inittab configuration file is a section describing the conditions for starting and restarting several mingetty daemons.&lt;/p&gt;
+&lt;h3 id=&#34;run-gettys-in-standard-runlevels&#34;&gt;Run gettys in standard runlevels&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1:2345:respawn:/sbin/mingetty tty1
+2:2345:respawn:/sbin/mingetty tty2
+3:2345:respawn:/sbin/mingetty tty3
+4:2345:respawn:/sbin/mingetty tty4
+5:2345:respawn:/sbin/mingetty tty5
+6:2345:respawn:/sbin/mingetty tty6&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;mingetty-daemons-and-binlogin-executable&#34;&gt;Mingetty daemons and /bin/login executable&lt;/h3&gt;
+&lt;p&gt;The /sbin/mingetty daemon prints a message to the virtual console and allows you to enter a user ID. It then executes the /bin/login binary, passing in the user ID entered. The /bin/login program checks if the user information is present in the /etc/passwd file and asks for a password (and also checks that it is correct). If the password is correct, the /bin/login program transfers control to the shell specified in the /etc/passwd file.&lt;/p&gt;
+&lt;h4 id=&#34;what-are-the-features&#34;&gt;What are the features?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Writing service startup files in bash;&lt;/li&gt;
+&lt;li&gt;Sequential start of services;&lt;/li&gt;
+&lt;li&gt;Sort launch order using numbers in filenames;&lt;/li&gt;
+&lt;li&gt;Commands to start, stop and check the status of services.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week from May 23 to May 29</title>
+      <link>https://example.com/post/week-from-may-30-to-june-5/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/week-from-may-30-to-june-5/</guid>
+      <description>&lt;h2 id=&#34;first&#34;&gt;First&lt;/h2&gt;
+&lt;p&gt;Several difficult control behind, I hope I do not have to rewrite. Getting ready for exams.&lt;/p&gt;
+&lt;h2 id=&#34;second&#34;&gt;Second&lt;/h2&gt;
+&lt;p&gt;In general, the week turned out to be quite eventful, not to say that there were many achievements, but at the same time, I was always busy somewhere or something.&lt;/p&gt;
+&lt;h2 id=&#34;third&#34;&gt;Third&lt;/h2&gt;
+&lt;p&gt;Well, we celebrated our birthday in a restaurant, the food is delicious, expensive and not enough.)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Языки программирования</title>
