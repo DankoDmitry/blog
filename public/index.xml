@@ -33,6 +33,29 @@
     </item>
     
     <item>
+      <title>Git version control</title>
+      <link>https://dankodmitry.github.io/post/versioning-git/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://dankodmitry.github.io/post/versioning-git/</guid>
+      <description>&lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
+&lt;p&gt;Git is a free and open source distributed version control system designed to handle projects of any size, from small to very large, quickly and efficiently.&lt;/p&gt;
+&lt;p&gt;Git is easy to learn, takes up little space, and has lightning-fast performance. It outperforms SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.&lt;/p&gt;
+&lt;h2 id=&#34;branch-and-merge&#34;&gt;Branch and merge&lt;/h2&gt;
+&lt;p&gt;(This is what gives Git an advantage over other version control systems)&lt;/p&gt;
+&lt;p&gt;The feature of Git that really sets it apart from almost all other SCMs is its branching model.&lt;/p&gt;
+&lt;p&gt;Git allows and encourages multiple local branches, which can be completely independent of each other. Creating, merging and deleting these development lines takes seconds.&lt;/p&gt;
+&lt;p&gt;This means you can do things like:&lt;/p&gt;
+&lt;p&gt;Seamless context switching. Create a branch to try out the idea, commit a few times, go back to where you branched from, apply a patch, go back to where you&amp;rsquo;re experimenting and merge it.
+Role-Based Codelines. Have a branch that always contains only what goes into production, another where you merge work into for testing, and a few smaller branches for day-to-day work.
+Feature-based workflow. Create new branches for every new feature you work on so you can easily switch between them, then delete each branch when that feature is merged into your mainline.
+Disposable Experiments. Create a branch for experimentation, realize that it won&amp;rsquo;t work, and just delete it by abandoning the work and no one else will see it (even if you&amp;rsquo;ve pushed other branches in the meantime).
+branches&lt;/p&gt;
+&lt;p&gt;Notably, when pushing to a remote repository, you don&amp;rsquo;t have to push all your branches. You can share just one of your branches, a few of them, or all of them. This generally allows people to try out new ideas without having to worry about what they need to plan, how and when they are going to combine them or share them with others.&lt;/p&gt;
+&lt;p&gt;There are ways to do this with other systems, but the job is much more difficult and error prone. Git makes this process incredibly easy and changes the way most developers work when they learn it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Initialization system System V</title>
       <link>https://dankodmitry.github.io/post/system-init-sysv/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
@@ -207,6 +230,16 @@ TypeScript is an open source language from Microsoft designed to add OOP functio
       <guid>https://dankodmitry.github.io/project/firstproject/</guid>
       <description>&lt;p&gt;Well, the task has been issued, the signatures have been signed, it&amp;rsquo;s time to do it. Your site-portfolio-resume, it&amp;rsquo;s cool. Imagine: You go to an interview in a large company and you are asked about your skills, which are briefly listed in the resume. Like what, how, where. And instead of talking for a long time about your achievements and experience, you simply send a link to this site, your site, where everything is detailed (with pictures, of course).&lt;/p&gt;
 &lt;p&gt;Well, the task has been issued, the signatures have been signed, it&amp;rsquo;s time to do it. Your site-portfolio-resume, it&amp;rsquo;s cool. Imagine: You go to an interview in a large company and you are asked about your skills, which are briefly listed in the resume. Like what, how, where. And instead of talking for a long time about your achievements and experience, you simply send a link to this site, your site, where everything is detailed (with pictures, of course).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week from May 2 to May 8</title>
+      <link>https://dankodmitry.github.io/post/week-from-may-2-to-may-8/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://dankodmitry.github.io/post/week-from-may-2-to-may-8/</guid>
+      <description>&lt;h2 id=&#34;most-ordinary-week&#34;&gt;Most ordinary week&lt;/h2&gt;
+&lt;p&gt;completely forgot of course about Edith and about the individual project Well, I think that this will not greatly affect the future assessment, at least I think I will go to 4&lt;/p&gt;
 </description>
     </item>
     

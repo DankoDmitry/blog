@@ -84,6 +84,16 @@
       href=""
     /></url>
   <url>
+    <loc>https://dankodmitry.github.io/post/versioning-git/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://dankodmitry.github.io/ru/post/versioning-git/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://dankodmitry.github.io/post/versioning-git/"
+    /></url>
+  <url>
     <loc>https://dankodmitry.github.io/post/system-init-sysv/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dankodmitry.github.io/post/</loc><lastmod>2022-06-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -154,6 +164,16 @@
       rel="alternate"
       hreflang="en"
       href="https://dankodmitry.github.io/project/"
+    /></url>
+  <url>
+    <loc>https://dankodmitry.github.io/post/week-from-may-2-to-may-8/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://dankodmitry.github.io/ru/post/week-from-may-2-to-may-8/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://dankodmitry.github.io/post/week-from-may-2-to-may-8/"
     /></url>
   <url>
     <loc>https://dankodmitry.github.io/post/week-from-may-23-to-may-29/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
